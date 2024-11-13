@@ -23,7 +23,7 @@ ingredients_list = st.multiselect(
     , my_dataframe
     , max_selections=5
 )
-
+time_to_insert = None
 if ingredients_list:
     ingredients_string = ''
 
